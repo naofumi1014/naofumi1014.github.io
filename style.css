@@ -1,23 +1,64 @@
-h1{
+* {
     text-align: center;
+    font-family: '游ゴシック';
 }
 
-hr{
-    border-color: aqua;
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.box7{
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    color: #474747;
-    background: whitesmoke;/*背景色*/
-    border-left: double 7px #4ec4d3;/*左線*/
-    border-right: double 7px #4ec4d3;/*右線*/
+#product {
+    font-size: 20px;
+    color: #3e3e3e
 }
-.box7 p {
-    margin: 0; 
-    padding: 0;
+
+header {
+    color: #F4722B;
+    font-size: 30px;
 }
-p{
-    font-size: larger;
+
+body {
+    background-color: #F6E7C1;
+    text-align: center
+}
+
+p {
+    color: #3e3e3e;
+    font-size: 20px;
+}
+
+h1 {
+    color: #F4722B;
+    font-size: 25px;
+    /*線の種類（実線） 太さ 色*/
+    border-bottom: solid 3px #F4722B;
+}
+
+table,
+h4 {
+    font-size: 20px;
+    margin: 3px auto;
+    color: #3e3e3e;
+}
+
+td {
+    text-align: left;
+}
+
+*.float {
+    float: center;
+    margin-right: 10em;
+    vertical-align: middle;
+}
+
+span {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 20px 5px;
 }
