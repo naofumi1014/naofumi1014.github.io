@@ -1,64 +1,13 @@
-* {
+body {
+    width: 100%;
     text-align: center;
-    font-family: 'ゴシック';
 }
 
-#container {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header {
-    color: #F4722B;
-    font-size: 30px;
+header#title {
+    position: fixed;
 }
 
 body {
-    background-color: #ffffff;
-    text-align: center
-}
-
-p {
-    color: #3e3e3e;
-    font-size: 15px;
-}
-
-ul {
-    color: #3e3e3e;
-    font-size: 15px;
-}
-
-h1 {
-    color: #F4722B;
-    font-size: 20px;
-    /*線の種類（実線） 太さ 色*/
-    border-bottom: solid 2px #F4722B;
-}
-
-table,
-h4 {
-    font-size: 15px;
-    margin: 3px auto;
-    color: #3e3e3e;
-}
-
-td {
-    text-align: left;
-}
-
-*.float {
-    float: center;
-    margin-right: 10em;
-    vertical-align: middle;
-}
-
-span {
-    vertical-align: middle;
-    font-size: 20px;
-}
-
-.table {
-    border-collapse: separate;
-    border-spacing: 20px 5px;
+    background-color: #FDFDFA;
+    color: #3F6170;
 }
