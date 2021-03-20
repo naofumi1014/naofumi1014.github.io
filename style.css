@@ -1,13 +1,18 @@
-body {
-    width: 100%;
-    text-align: center;
-}
-
-header#title {
-    position: fixed;
-}
-
-body {
-    background-color: #FDFDFA;
-    color: #3F6170;
-}
+    body {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header#title {
+        position: fixed;
+    }
+    
+    body {
+        background-color: #FDFDFA;
+        color: #3F6170;
+    }
+    
+    h1 {
+        color: #FDFDFA;
+        background: #3F6170;
+    }
