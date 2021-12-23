@@ -46,3 +46,8 @@ body {
     text-align: center;
     background: #FDFDFA;
 }
+
+ul {
+    padding-right: 50px;
+    list-style-type: square;
+}
