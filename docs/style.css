@@ -51,3 +51,9 @@ ul {
     padding-right: 50px;
     list-style-type: square;
 }
+
+.image {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}

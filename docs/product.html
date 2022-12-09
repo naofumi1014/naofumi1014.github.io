@@ -19,66 +19,30 @@
 </head>
 
 <body>
-    <script>
-        var myCarousel = document.querySelector('.carouselControl')
-        var carousel = new bootstrap.Carousel(myCarousel)
-    </script>
+
     <!----- main ----->
     <h1>Product</h1>
 
-    <h3 align='left'>AIアナウンサー作成支援ツール
-    </h3>
-    <p class="lh-sm">作成したニュース原稿(.txt形式)から音声合成によって読み上げる音声ファイル(.mp3/wav)を作成する。システムは単語辞書登録機能を持ち、予め難読文字の読み方やイントネーションを指定することが可能。</p>
+    <h3 align='left'>AIアナウンサー作成支援ツール</h3>
+    <p class="lh-sm">作成したニュース原稿(.txt形式)から音声合成によって読み上げる音声ファイル(.mp3/wav)を作成する。<br>システムは単語辞書登録機能を持ち、予め難読文字の読み方やイントネーションを指定することが可能。</p>
 
-    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="photo\AIana_top1.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="photo\AIana_top2.png" class="d-block w-100">
-            </div>
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div class="image">
+        <img src="photo\AIana_top1.png" class="d-block w-100">
+        <img src="photo\AIana_top2.png" class="d-block w-100">
     </div>
 
+    <hr>
 
-    <h3 align='left'>OCRを活用した簡易スポーツコーダ
-    </h3>
-    <p class="lh-sm">任意の得点版からタイマー、ペナルティ等表示をOCRにて認識し、OBS経由でリアルタイムにスーパーするシステム。Websocket通信により高速にHTMLテロップを更新し送出する。Websocket通信の活用により、CGテロップを予め用意する必要がなく、現場で、誰でも編集することが可能である。またOBSとBMD社のDecklinkを組み合わせることで、Key/Fillの送出が可能となり、高品質なキーイングが可能となる。
+    <h3 align='left'>OCRを活用した簡易スポーツコーダ</h3>
+    <p class="lh-sm">任意の得点版からタイマー、ペナルティ等表示をOCRにて認識し、OBS経由でリアルタイムにスーパーするシステム。<br>Websocket通信により高速にHTMLテロップを更新し送出する。<br>Websocket通信の活用により、CGテロップを予め用意する必要がなく、現場で誰でも編集することが可能である。<br>またOBSとBMD社のDecklinkを組み合わせることで、Key/Fillの送出が可能となり、高品質なキーイングが可能となる。
     </p>
 
 
-    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="photo\sportscoder_obs.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="photo\sportscoder_preview.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="photo\sportscoder_construction.png" class="d-block w-100">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div class="image">
+        <img src="photo\sportscoder_obs.png" class="d-block w-100">
+        <img src="photo\sportscoder_preview.png" class="d-block w-100">
+        <img src="photo\sportscoder_construction.png" class="d-block w-100">
     </div>
-
 
 </body>
 
