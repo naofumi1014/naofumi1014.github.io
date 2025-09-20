@@ -1,63 +1,10 @@
-p {
-    font-size: 16px;
+#lang {
+    color: inherit !important; /* 親要素の色を継承 */
+    text-decoration: none;     /* 下線を消す */
+}
+
+#lang-active {
+    color: inherit !important; /* 親要素の色を継承 */
+    text-decoration: none;     /* 下線を消す */
     font-weight: bold;
-    text-align: center;
-    margin: 60px auto 40px;
-}
-
-table {
-    margin: 20px auto;
-}
-
-.tbl-r02 th {
-    background: #93A8AC;
-    border: solid 1px #ccc;
-    padding: 10px;
-}
-
-.tbl-r02 td {
-    border: solid 1px #ccc;
-    padding: 10px;
-}
-
-@media screen and (max-width: 640px) {
-    .last td:last-child {
-        border-bottom: solid 1px #ccc;
-        width: 100%;
-    }
-    .tbl-r02 {
-        width: 80%;
-    }
-    .tbl-r02 th,
-    .tbl-r02 td {
-        border-bottom: none;
-        display: block;
-        width: 100%;
-    }
-}
-
-h1 {
-    color: #FDFDFA;
-    background: #3F6170;
-}
-
-body {
-    width: 100%;
-    text-align: center;
-    background: #FDFDFA;
-}
-
-ul {
-    padding-right: 50px;
-    list-style-type: square;
-}
-
-.image {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-}
-
-#product {
-    padding: 10%;
 }
