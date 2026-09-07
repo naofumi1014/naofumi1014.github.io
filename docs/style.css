@@ -118,6 +118,28 @@ a:hover {
     background: var(--accent-soft);
 }
 
+.cv-download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.28rem 0.82rem;
+    border-radius: 999px;
+    border: 1px solid #1f5f94;
+    background: #1f5f94;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    line-height: 1.2;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.cv-download-btn:hover {
+    background: #17476e;
+    border-color: #17476e;
+    color: #ffffff;
+}
+
 @media (max-width: 768px) {
     body>.container {
         border-radius: 0;
@@ -149,5 +171,10 @@ a:hover {
 
     .container>img.img-fluid {
         width: min(240px, 68vw) !important;
+    }
+
+    .cv-download-btn {
+        padding: 0.24rem 0.68rem;
+        font-size: 0.82rem;
     }
 }
